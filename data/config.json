@@ -1,0 +1,112 @@
+{
+  "gameTitle": {
+    "ar": "أبطال السلامة المرورية",
+    "en": "Traffic Safety Heroes",
+    "fr": "Les héros de la Sécurité Routière"
+  },
+  "startScreen": {
+    "title": {
+      "ar": "أبطال السلامة المرورية",
+      "en": "Traffic Safety Heroes",
+      "fr": "Les héros de la Sécurité Routière"
+    },
+    "description": {
+      "ar": "مرحبا بك يا بطل! هل أنت مستعد لتتعلم قواعد السلامة على الطريق وتصبح بطلاً حقيقيا؟",
+      "en": "Welcome, hero! Are you ready to learn the rules of the road and become a true hero?",
+      "fr": "Bienvenue, les héros ! Es-tu prêt à apprendre les règles de la route et à devenir un vrai héros ?"
+    },
+    "buttonText": {
+      "ar": "ابدأ المغامرة!",
+      "en": "Start Adventure!",
+      "fr": "Commencer l'Aventure !"
+    }
+  },
+  "gameScreen": {
+    "progressLabel": {
+      "ar": "التقدم",
+      "en": "Progress",
+      "fr": "Progression"
+    },
+    "scoreLabel": {
+      "ar": "النتيجة",
+      "en": "Score",
+      "fr": "Score"
+    },
+    "timerLabel": {
+      "ar": "الوقت",
+      "en": "Time",
+      "fr": "Temps"
+    },
+    "ingameRestartLabel": {
+        "ar": "إعادة اللعبة",
+        "en": "Restart Game",
+        "fr": "Rejouer la partie"
+    },
+    "backToMenuLabel": {
+        "ar": "العودة للقائمة",
+        "en": "Back to Menu",
+        "fr": "Retour au Menu"
+    }
+  },
+  "endScreen": {
+    "title": {
+      "ar": "لقد أكملت التحدي!",
+      "en": "Challenge Complete!",
+      "fr": "Défi Terminé !"
+    },
+    "finalScoreLabel": {
+      "ar": "نتيجتك النهائية هي:",
+      "en": "Your final score is:",
+      "fr": "Votre score final est :"
+    },
+    "restartButtonText": {
+      "ar": "العب مرة أخرى",
+      "en": "Play Again",
+      "fr": "Rejouer"
+    },
+    "feedbackMessages": {
+      "great": {
+        "ar": "رائع! أنت بطل حقيقي في السلامة المرورية!",
+        "en": "Excellent! You are a true Traffic Safety Hero!",
+        "fr": "Excellent ! Vous êtes un vrai héros de la sécurité routière !"
+      },
+      "good": {
+        "ar": "عمل جيد جداً! لقد تعلمت الكثير.",
+        "en": "Very good job! You've learned a lot.",
+        "fr": "Très bon travail ! Vous avez beaucoup appris."
+      },
+      "retry": {
+        "ar": "لا بأس، كل بطل يحتاج إلى التدريب. حاول مرة أخرى!",
+        "en": "It's okay, every hero needs practice. Try again!",
+        "fr": "Ce n'est pas grave, chaque héros a besoin de pratique. Réessayez !"
+      }
+    }
+  },
+  "settings": {
+    "title": {
+      "ar": "الإعدادات",
+      "en": "Settings",
+      "fr": "Paramètres"
+    },
+    "masterSound": {
+      "ar": "الصوت الرئيسي",
+      "en": "Master Sound",
+      "fr": "Son Principal"
+    },
+    "backgroundMusic": {
+      "ar": "موسيقى الخلفية",
+      "en": "Background Music",
+      "fr": "Musique de fond"
+    },
+    "timerSound": {
+      "ar": "صوت المؤقت",
+      "en": "Timer Sound",
+      "fr": "Son du minuteur"
+    },
+    "closeButton": {
+      "ar": "إغلاق",
+      "en": "Close",
+      "fr": "Fermer"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+[
+  {
+    "id": "salim",
+    "avatar": "images/char_salim.png",
+    "name": {
+      "ar": "سالم",
+      "en": "Salim",
+      "fr": "Salim"
+    },
+    "description": {
+      "ar": "سالم فتى ذكي وحذر، يحب أن يشارك أصدقاءه ما يتعلمه عن قواعد الطريق.",
+      "en": "Salim is a smart and careful boy who loves to share what he learns about road rules with his friends.",
+      "fr": "Salim est un garçon intelligent et prudent qui aime partager ce qu'il apprend sur les règles de la route avec ses amis."
+    },
+    "welcomeMessage": {
+      "ar": "أهلاً بك يا صديقي! أنا سالم، وسأكون مرشدك في هذه الرحلة.",
+      "en": "Welcome, my friend! I'm Salim, and I'll be your guide on this journey.",
+      "fr": "Bienvenue, mon ami ! Je suis Salim, et je serai ton guide dans ce voyage."
+    }
+  },
+  {
+    "id": "amal",
+    "avatar": "images/char_amal.png",
+    "name": {
+      "ar": "أمل",
+      "en": "Amal",
+      "fr": "Amal"
+    },
+    "description": {
+      "ar": "أمل فتاة نشيطة ومرحة، تعتقد أن تعلم قواعد السلامة يمكن أن يكون مغامرة ممتعة.",
+      "en": "Amal is an active and cheerful girl who believes learning safety rules can be a fun adventure.",
+      "fr": "Amal est une fille active et joyeuse qui croit que l'apprentissage des règles de sécurité peut être une aventure amusante."
+    },
+    "welcomeMessage": {
+      "ar": "مرحباً يا بطلة! أنا أمل، وهيا بنا ننطلق في مغامرة شيقة.",
+      "en": "Hello, champion! I'm Amal, let's go on an exciting adventure.",
+      "fr": "Salut, championne ! Je suis Amal, partons pour une aventure passionnante."
+    }
+  },
+  {
+    "id": "hasan",
+    "avatar": "images/char_hasan.png",
+    "name": {
+      "ar": "الشرطي حسن",
+      "en": "Officer Hasan",
+      "fr": "Officier Hasan"
+    },
+    "description": {
+      "ar": "الشرطي حسن هو صديق كل الأطفال، ومهمته هي الحفاظ على أمن وسلامة الجميع على الطرقات.",
+      "en": "Officer Hasan is a friend to all children, and his mission is to keep everyone safe on the roads.",
+      "fr": "L'officier Hasan est l'ami de tous les enfants, et sa mission est d'assurer la sécurité de tous sur les routes."
+    },
+    "welcomeMessage": {
+      "ar": "مرحباً أيها البطل الصغير! أنا الشرطي حسن، ومهمتنا اليوم هي أن نصبح من خبراء السلامة. هل أنت مستعد؟",
+      "en": "Hello, little hero! I'm Officer Hasan, and our mission today is to become safety experts. Are you ready?",
+      "fr": "Bonjour, petit héros ! Je suis l'officier Hasan, et notre mission aujourd'hui est de devenir des experts de la sécurité. Es-tu prêt ?"
+    }
+  }
+]

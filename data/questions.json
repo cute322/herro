@@ -1,0 +1,197 @@
+[
+  {
+    "id": 1,
+    "image": "images/pedestrian_green.png",
+    "questionText": {
+      "ar": "عندما يكون ضوء المشاة أخضر وشكله رجل يمشي، ماذا يجب أن تفعل؟",
+      "en": "When the pedestrian light is green and shows a walking person, what should you do?",
+      "fr": "Lorsque le feu piéton est vert et montre une personne qui marche, que devez-vous faire ?"
+    },
+    "options": [
+      {
+        "ar": "أركض بأسرع ما يمكن",
+        "en": "Run as fast as you can",
+        "fr": "Courir aussi vite que possible"
+      },
+      {
+        "ar": "أعبر الشارع بانتباه وأنا أنظر يميناً ويساراً",
+        "en": "Cross the street carefully, looking left and right",
+        "fr": "Traverser la rue prudemment, en regardant à gauche et à droite"
+      },
+      {
+        "ar": "أنتظر حتى تصبح الإشارة حمراء",
+        "en": "Wait until the light turns red",
+        "fr": "Attendre que le feu passe au rouge"
+      }
+    ],
+    "correctAnswerIndex": 1,
+    "feedback": {
+      "correct": {
+        "ar": "أحسنت! الضوء الأخضر يعني أنه يمكنك العبور، ولكن دائماً بحذر.",
+        "en": "Well done! The green light means you can cross, but always be careful.",
+        "fr": "Bravo ! Le feu vert signifie que vous pouvez traverser, mais toujours prudemment."
+      },
+      "incorrect": {
+        "ar": "إجابة خاطئة. الضوء الأخضر هو الوقت المناسب للعبور، ولكن بانتباه.",
+        "en": "Incorrect answer. The green light is the right time to cross, but carefully.",
+        "fr": "Mauvaise réponse. Le feu vert est le bon moment pour traverser, mais avec prudence."
+      }
+    }
+  },
+  {
+    "id": 2,
+    "image": "images/safe_playground.png",
+    "questionText": {
+      "ar": "ما هو المكان الأكثر أماناً للعب بالكرة؟",
+      "en": "What is the safest place to play with a ball?",
+      "fr": "Quel est l'endroit le plus sûr pour jouer au ballon ?"
+    },
+    "options": [
+      {
+        "ar": "في الشارع أمام المنزل",
+        "en": "In the street in front of the house",
+        "fr": "Dans la rue devant la maison"
+      },
+      {
+        "ar": "في موقف السيارات",
+        "en": "In the parking lot",
+        "fr": "Dans le parking"
+      },
+      {
+        "ar": "في الحديقة العامة أو الملعب",
+        "en": "In the public park or playground",
+        "fr": "Dans le parc public ou le terrain de jeu"
+      }
+    ],
+    "correctAnswerIndex": 2,
+    "feedback": {
+      "correct": {
+        "ar": "صحيح تماماً! الحدائق والملاعب هي الأماكن المخصصة للعب بأمان.",
+        "en": "Exactly! Parks and playgrounds are the designated places for safe play.",
+        "fr": "Exactement ! Les parcs et les terrains de jeux sont les endroits désignés pour jouer en toute sécurité."
+      },
+      "incorrect": {
+        "ar": "خطأ! اللعب في الشارع خطير جداً لأن السائقين قد لا يرونك.",
+        "en": "Wrong! Playing in the street is very dangerous because drivers might not see you.",
+        "fr": "Faux ! Jouer dans la rue est très dangereux car les conducteurs pourraient ne pas vous voir."
+      }
+    }
+  },
+  {
+    "id": 3,
+    "image": "images/kid_with_helmet.png",
+    "questionText": {
+      "ar": "عند ركوب الدراجة، ما هو الشيء الأهم الذي يجب أن ترتديه لحماية رأسك؟",
+      "en": "When riding a bike, what is the most important thing to wear to protect your head?",
+      "fr": "Quand vous faites du vélo, quelle est la chose la plus importante à porter pour protéger votre tête ?"
+    },
+    "options": [
+      {
+        "ar": "قبعة شمسية",
+        "en": "A sun hat",
+        "fr": "Un chapeau de soleil"
+      },
+      {
+        "ar": "خوذة قوية",
+        "en": "A strong helmet",
+        "fr": "Un casque solide"
+      },
+      {
+        "ar": "نظارات شمسية",
+        "en": "Sunglasses",
+        "fr": "Des lunettes de soleil"
+      }
+    ],
+    "correctAnswerIndex": 1,
+    "feedback": {
+      "correct": {
+        "ar": "ممتاز! الخوذة هي الدرع الواقي لرأسك وتحميك من الإصابات الخطيرة.",
+        "en": "Excellent! The helmet is a shield for your head and protects you from serious injuries.",
+        "fr": "Excellent ! Le casque est un bouclier pour votre tête et vous protège des blessures graves."
+      },
+      "incorrect": {
+        "ar": "تذكر دائماً، الخوذة هي أهم شيء لحماية رأسك عند ركوب الدراجة.",
+        "en": "Always remember, the helmet is the most important thing to protect your head when riding a bike.",
+        "fr": "Rappelez-vous toujours, le casque est la chose la plus importante pour protéger votre tête à vélo."
+      }
+    }
+  },
+  {
+    "id": 4,
+    "image": "images/kid_in_car_seat.png",
+    "questionText": {
+      "ar": "عندما تركب السيارة مع عائلتك، أين يجب أن تجلس؟",
+      "en": "When you ride in the car with your family, where should you sit?",
+      "fr": "Quand vous êtes en voiture avec votre famille, où devriez-vous vous asseoir ?"
+    },
+    "options": [
+      {
+        "ar": "في المقعد الأمامي بجانب السائق",
+        "en": "In the front seat next to the driver",
+        "fr": "Sur le siège avant à côté du conducteur"
+      },
+      {
+        "ar": "في المقعد الخلفي مع ربط حزام الأمان",
+        "en": "In the back seat with the seatbelt fastened",
+        "fr": "Sur la banquette arrière avec la ceinture de sécurité attachée"
+      },
+      {
+        "ar": "في أي مكان أريده",
+        "en": "Anywhere I want",
+        "fr": "N'importe où je veux"
+      }
+    ],
+    "correctAnswerIndex": 1,
+    "feedback": {
+      "correct": {
+        "ar": "إجابة مثالية! المقعد الخلفي هو المكان الأكثر أماناً للأطفال.",
+        "en": "Perfect answer! The back seat is the safest place for children.",
+        "fr": "Réponse parfaite ! La banquette arrière est l'endroit le plus sûr pour les enfants."
+      },
+      "incorrect": {
+        "ar": "خطأ. المكان الأكثر أماناً لك دائماً هو المقعد الخلفي مع ربط حزام الأمان.",
+        "en": "Incorrect. The safest place for you is always the back seat with the seatbelt fastened.",
+        "fr": "Incorrect. L'endroit le plus sûr pour vous est toujours la banquette arrière avec la ceinture attachée."
+      }
+    }
+  },
+  {
+    "id": 5,
+    "image": "images/stop_sign.png",
+    "questionText": {
+      "ar": "ماذا تعني هذه الإشارة المرورية؟",
+      "en": "What does this traffic sign mean?",
+      "fr": "Que signifie ce panneau de signalisation ?"
+    },
+    "options": [
+      {
+        "ar": "يجب على السائق أن يخفف السرعة",
+        "en": "The driver must slow down",
+        "fr": "Le conducteur doit ralentir"
+      },
+      {
+        "ar": "يجب على السائق أن يتوقف توقفاً تاماً",
+        "en": "The driver must come to a complete stop",
+        "fr": "Le conducteur doit marquer un arrêt complet"
+      },
+      {
+        "ar": "يمكن للسائق أن يمر بسرعة",
+        "en": "The driver can pass quickly",
+        "fr": "Le conducteur peut passer rapidement"
+      }
+    ],
+    "correctAnswerIndex": 1,
+    "feedback": {
+      "correct": {
+        "ar": "إجابة صحيحة! إشارة 'قف' تعني التوقف التام قبل مواصلة الطريق.",
+        "en": "Correct answer! The 'Stop' sign means to come to a complete stop before proceeding.",
+        "fr": "Bonne réponse ! Le panneau 'Stop' signifie qu'il faut s'arrêter complètement avant de continuer."
+      },
+      "incorrect": {
+        "ar": "إشارة 'قف' هي أمر واضح بالتوقف التام، وليس فقط تخفيف السرعة.",
+        "en": "The 'Stop' sign is a clear command to stop completely, not just to slow down.",
+        "fr": "Le panneau 'Stop' est un ordre clair de s'arrêter complètement, pas seulement de ralentir."
+      }
+    }
+  }
+]
