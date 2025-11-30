@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "characterId": "hasan",
     "image": "images/pedestrian_green.png",
     "questionText": {
       "ar": "عندما يكون ضوء المشاة أخضر وشكله رجل يمشي، ماذا يجب أن تفعل؟",
@@ -40,6 +41,7 @@
   },
   {
     "id": 2,
+    "characterId": "amal",
     "image": "images/safe_playground.png",
     "questionText": {
       "ar": "ما هو المكان الأكثر أماناً للعب بالكرة؟",
@@ -79,6 +81,7 @@
   },
   {
     "id": 3,
+    "characterId": "salim",
     "image": "images/kid_with_helmet.png",
     "questionText": {
       "ar": "عند ركوب الدراجة، ما هو الشيء الأهم الذي يجب أن ترتديه لحماية رأسك؟",
@@ -118,6 +121,7 @@
   },
   {
     "id": 4,
+    "characterId": "amal",
     "image": "images/kid_in_car_seat.png",
     "questionText": {
       "ar": "عندما تركب السيارة مع عائلتك، أين يجب أن تجلس؟",
@@ -157,6 +161,7 @@
   },
   {
     "id": 5,
+    "characterId": "hasan",
     "image": "images/stop_sign.png",
     "questionText": {
       "ar": "ماذا تعني هذه الإشارة المرورية؟",
@@ -191,6 +196,186 @@
         "ar": "إشارة 'قف' هي أمر واضح بالتوقف التام، وليس فقط تخفيف السرعة.",
         "en": "The 'Stop' sign is a clear command to stop completely, not just to slow down.",
         "fr": "Le panneau 'Stop' est un ordre clair de s'arrêter complètement, pas seulement de ralentir."
+      }
+    }
+  },
+  {
+    "id": 6,
+    "characterId": "salim",
+    "questionText": {
+      "ar": "عندما تكون جالسًا في الحافلة، هل من الآمن إخراج رأسك من النافذة؟",
+      "en": "When you are sitting on the bus, is it safe to stick your head out of the window?",
+      "fr": "Quand tu es assis dans le bus, est-il prudent de sortir la tête par la fenêtre ?"
+    },
+    "image": "images/q_bus_head.png",
+    "options": [
+      { "ar": "نعم، لأرى الطريق جيداً", "en": "Yes, to see the road better", "fr": "Oui, pour mieux voir la route" },
+      { "ar": "لا، هذا خطير جداً", "en": "No, this is very dangerous", "fr": "Non, c'est très dangereux" },
+      { "ar": "فقط إذا كانت الحافلة بطيئة", "en": "Only if the bus is slow", "fr": "Seulement si le bus est lent" }
+    ],
+    "correctAnswerIndex": 1,
+    "feedback": {
+      "correct": {
+        "ar": "أحسنت! الحفاظ على رأسك داخل الحافلة يحميك من الأذى.",
+        "en": "Well done! Keeping your head inside the bus protects you from harm.",
+        "fr": "Bravo ! Garder la tête à l'intérieur du bus te protège."
+      },
+      "incorrect": {
+        "ar": "خطأ! إخراج رأسك من النافذة يمكن أن يسبب لك إصابات خطيرة.",
+        "en": "Incorrect! Sticking your head out of the window can cause serious injuries.",
+        "fr": "Incorrect ! Sortir la tête par la fenêtre peut causer de graves blessures."
+      }
+    }
+  },
+  {
+    "id": 7,
+    "characterId": "amal",
+    "questionText": {
+      "ar": "هل تخرج يدك من نافذة الحافلة لتلوح لأصدقائك؟",
+      "en": "Do you stick your hand out of the bus window to wave to your friends?",
+      "fr": "Est-ce que tu sors la main par la fenêtre du bus pour dire au revoir à tes amis ?"
+    },
+    "image": "images/q_bus_hand.png",
+    "options": [
+      { "ar": "لا، يدي يجب أن تبقى بالداخل", "en": "No, my hand must stay inside", "fr": "Non, ma main doit rester à l'intérieur" },
+      { "ar": "نعم، هذا ممتع", "en": "Yes, it's fun", "fr": "Oui, c'est amusant" },
+      { "ar": "أفعل ذلك أحياناً", "en": "I do it sometimes", "fr": "Je le fais parfois" }
+    ],
+    "correctAnswerIndex": 0,
+    "feedback": {
+      "correct": {
+        "ar": "صحيح! سلامتك أولاً، يجب أن تبقى كل أجزاء جسمك داخل الحافلة.",
+        "en": "Correct! Your safety comes first, all parts of your body must remain inside the bus.",
+        "fr": "Correct ! Ta sécurité avant tout, toutes les parties de ton corps doivent rester à l'intérieur du bus."
+      },
+      "incorrect": {
+        "ar": "انتبه! هذا تصرف خطير. قد تصطدم يدك بشيء وتتأذى.",
+        "en": "Be careful! This is a dangerous action. Your hand could hit something and get hurt.",
+        "fr": "Attention ! C'est un acte dangereux. Ta main pourrait heurter quelque chose et te blesser."
+      }
+    }
+  },
+  {
+    "id": 8,
+    "characterId": "hasan",
+    "questionText": {
+      "ar": "داخل الحافلة المدرسية، ما هو التصرف الصحيح؟",
+      "en": "Inside the school bus, what is the correct behavior?",
+      "fr": "À l'intérieur du bus scolaire, quel est le bon comportement ?"
+    },
+    "image": "images/q_bus_seat.png",
+    "options": [
+      { "ar": "أبقى جالساً في مكاني بهدوء", "en": "Stay seated quietly in my place", "fr": "Rester assis tranquillement à ma place" },
+      { "ar": "أتنقل بين المقاعد لأتحدث مع أصدقائي", "en": "Move between seats to talk to my friends", "fr": "Me déplacer entre les sièges pour parler à mes amis" },
+      { "ar": "أقف بجانب السائق", "en": "Stand next to the driver", "fr": "Me tenir à côté du chauffeur" }
+    ],
+    "correctAnswerIndex": 0,
+    "feedback": {
+      "correct": {
+        "ar": "ممتاز! الجلوس بهدوء حتى تتوقف الحافلة هو التصرف الأكثر أماناً.",
+        "en": "Excellent! Sitting quietly until the bus stops is the safest behavior.",
+        "fr": "Excellent ! Rester assis tranquillement jusqu'à l'arrêt du bus est le comportement le plus sûr."
+      },
+      "incorrect": {
+        "ar": "حاول مرة أخرى. الحركة داخل الحافلة أثناء سيرها قد تسبب لك السقوط.",
+        "en": "Try again. Moving inside the bus while it's in motion can cause you to fall.",
+        "fr": "Essaie encore. Bouger dans le bus pendant qu'il roule peut te faire tomber."
+      }
+    }
+  },
+  {
+    "id": 9,
+    "characterId": "hasan",
+    "questionText": {
+      "ar": "إذا ترك لك والدك حرية اختيار مكان الجلوس في السيارة، أين تختار؟",
+      "en": "If your father lets you choose where to sit in the car, where do you choose?",
+      "fr": "Si ton père te laisse choisir où t'asseoir dans la voiture, où choisis-tu ?"
+    },
+    "image": "images/q_car_seat.png",
+    "options": [
+      { "ar": "في المقعد الخلفي وأربط حزام الأمان", "en": "In the back seat and fasten my seatbelt", "fr": "Sur la banquette arrière et j'attache ma ceinture" },
+      { "ar": "في المقعد الأمامي بجانب والدي", "en": "In the front seat next to my father", "fr": "Sur le siège avant à côté de mon père" },
+      { "ar": "في حضن أمي لأشعر بالأمان", "en": "On my mother's lap to feel safe", "fr": "Sur les genoux de ma mère pour me sentir en sécurité" }
+    ],
+    "correctAnswerIndex": 0,
+    "feedback": {
+      "correct": {
+        "ar": "اختيار رائع! المقعد الخلفي مع حزام الأمان هو المكان الأكثر أماناً للأطفال.",
+        "en": "Great choice! The back seat with a seatbelt is the safest place for children.",
+        "fr": "Excellent choix ! La banquette arrière avec la ceinture de sécurité est l'endroit le plus sûr pour les enfants."
+      },
+      "incorrect": {
+        "ar": "تذكر دائماً، المكان الآمن للأطفال هو المقعد الخلفي مع ربط حزام الأمان.",
+        "en": "Always remember, the safe place for children is the back seat with the seatbelt fastened.",
+        "fr": "Rappelle-toi toujours, la place la plus sûre pour les enfants est à l'arrière, avec la ceinture de sécurité attachée."
+      }
+    }
+  },
+  {
+    "id": 10,
+    "characterId": "salim",
+    "questionText": {
+      "ar": "عندما تريد عبور الشارع، ماذا تفعل أولاً؟",
+      "en": "When you want to cross the street, what do you do first?",
+      "fr": "Quand tu veux traverser la rue, que fais-tu en premier ?"
+    },
+    "image": "images/q_crosswalk.png",
+    "options": [
+      { "ar": "أبحث عن مكان آمن للعبور مثل ممر المشاة", "en": "Look for a safe place to cross like a crosswalk", "fr": "Je cherche un endroit sûr pour traverser comme un passage piéton" },
+      { "ar": "أجري بسرعة لأعبر قبل السيارات", "en": "I run fast to cross before the cars", "fr": "Je cours vite pour traverser avant les voitures" },
+      { "ar": "أتبع أصدقائي دون أن أنظر", "en": "I follow my friends without looking", "fr": "Je suis mes amis sans regarder" }
+    ],
+    "correctAnswerIndex": 0,
+    "feedback": {
+      "correct": {
+        "ar": "أنت بطل سلامة حقيقي! دائماً ابحث عن ممر المشاة أو إشارة المرور.",
+        "en": "You are a true safety hero! Always look for a crosswalk or traffic light.",
+        "fr": "Tu es un vrai héros de la sécurité ! Cherche toujours un passage piéton ou un feu de circulation."
+      },
+      "incorrect": {
+        "ar": "لا تتسرع! سلامتك أهم. يجب أن تختار مكاناً آمناً للعبور أولاً.",
+        "en": "Don't rush! Your safety is more important. You must choose a safe place to cross first.",
+        "fr": "Ne te précipite pas ! Ta sécurité est plus importante. Tu dois d'abord choisir un endroit sûr pour traverser."
+      }
+    }
+  },
+  {
+    "id": 11,
+    "characterId": "amal",
+    "questionText": {
+      "ar": "عند نزولك من الحافلة، أين هو المكان الآمن للوقوف حتى تتحرك؟",
+      "en": "After getting off the bus, where is the safe place to stand until it moves?",
+      "fr": "Après être descendu du bus, où est l'endroit sûr pour attendre qu'il parte ?"
+    },
+    "image": "images/q_bus_safe_spot.png",
+    "options": [
+      {
+        "ar": "على الرصيف بعيداً عن الحافلة",
+        "en": "On the sidewalk, far away from the bus",
+        "fr": "Sur le trottoir, loin du bus"
+      },
+      {
+        "ar": "أمام الحافلة مباشرةً",
+        "en": "Directly in front of the bus",
+        "fr": "Juste devant le bus"
+      },
+      {
+        "ar": "خلف الحافلة مباشرةً",
+        "en": "Directly behind the bus",
+        "fr": "Juste derrière le bus"
+      }
+    ],
+    "correctAnswerIndex": 0,
+    "feedback": {
+      "correct": {
+        "ar": "رائع! الوقوف على الرصيف يجعلك مرئياً للسائق ويحافظ على سلامتك.",
+        "en": "Excellent! Standing on the sidewalk makes you visible to the driver and keeps you safe.",
+        "fr": "Excellent ! Te tenir sur le trottoir te rend visible pour le chauffeur et assure ta sécurité."
+      },
+      "incorrect": {
+        "ar": "انتبه! الوقوف أمام أو خلف الحافلة خطير جداً لأن السائق قد لا يتمكن من رؤيتك.",
+        "en": "Watch out! Standing in front of or behind the bus is very dangerous because the driver might not be able to see you.",
+        "fr": "Attention ! Se tenir devant ou derrière le bus est très dangereux car le chauffeur pourrait ne pas te voir."
       }
     }
   }

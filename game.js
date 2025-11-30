@@ -38,9 +38,9 @@ const musicLabel = document.getElementById('music-label');
 const timerSoundLabel = document.getElementById('timer-sound-label');
 const nextQuestionBtn = document.getElementById('next-question-btn');
 
-// ========================= 2. متغيرات حالة اللعبة (Game State) ========================
 let questions = [];
 let config = {};
+let characters = [];
 let currentLanguage = 'ar';
 let currentQuestionIndex = 0;
 let score = 0;
@@ -55,15 +55,16 @@ let soundSettings = {
     timer: true
 };
 
-// ========================= 3. تحميل وإعداد اللعبة ======================
 async function loadGameData() {
     try {
-        const [questionsRes, configRes] = await Promise.all([
-            fetch('data/questions.json'),
-            fetch('data/config.json'),
-        ]);
-        questions = await questionsRes.json();
-        config = await configRes.json();
+        const [questionsRes, configRes, charactersRes] = await Promise.all([
+    fetch('data/questions.json'),
+    fetch('data/config.json'),
+    fetch('data/characters.json') 
+]);
+questions = await questionsRes.json();
+config = await configRes.json();
+characters = await charactersRes.json();
         
         initializeSounds();
         initializeEventListeners();
@@ -99,7 +100,6 @@ function initializeEventListeners() {
     timerSoundToggle.addEventListener('click', toggleTimerSound);
 }
 
-// ========================= 4. دوال الإعدادات ========================
 function openSettings() {
     playSound('click');
     settingsModal.classList.remove('hidden');
@@ -139,7 +139,6 @@ function toggleTimerSound() {
     timerSoundToggle.classList.toggle('active', soundSettings.timer);
 }
 
-// ========================= 5. نظام إدارة اللغة ========================
 function handleLanguageChange(e) {
     if (e.target.classList.contains('lang-btn')) {
         setLanguage(e.target.dataset.lang);
@@ -176,7 +175,6 @@ function updateUIText() {
     closeSettingsBtn.textContent = config.settings.closeButton[currentLanguage];
 }
 
-// ========================== 6. بدء وإدارة اللعبة ========================
 function startGame() {
     playSound('click');
     stopTimer();
@@ -199,6 +197,18 @@ function displayQuestion() {
     updateHUD();
     nextQuestionBtn.classList.add('hidden');
     const question = questions[currentQuestionIndex];
+    const characterAvatar = document.getElementById('character-avatar');
+if (question.characterId && characters.length > 0) {
+    const character = characters.find(c => c.id === question.characterId);
+    if (character) {
+        characterAvatar.src = character.avatar;
+        characterAvatar.style.display = 'block';
+    } else {
+        characterAvatar.style.display = 'none';
+    }
+} else {
+    characterAvatar.style.display = 'none';
+}
     questionText.textContent = question.questionText[currentLanguage];
     questionImage.src = question.image;
     questionImage.alt = question.questionText[currentLanguage];
@@ -214,7 +224,6 @@ function displayQuestion() {
     startTimer();
 }
 
-// ========================== 7. نظام المؤقت الزمني =========================
 function startTimer() {
     stopTimer();
     timeRemaining = TIME_LIMIT;
@@ -252,7 +261,6 @@ function handleTimeUp() {
     nextQuestionBtn.classList.remove('hidden');
 }
 
-// ====================== 8. معالجة الإجابات والتقدم =======================
 function handleOptionClick(e) {
     if (isAnswered) return;
     isAnswered = true;
@@ -295,7 +303,6 @@ function endGame() {
     finalFeedbackMessage.textContent = config.endScreen.feedbackMessages[feedbackKey][currentLanguage];
 }
 
-// ========================== 9. دوال مساعدة =========================
 function updateHUD() {
     scoreValue.textContent = score;
     const progressPercent = (currentQuestionIndex / questions.length) * 100;
@@ -334,5 +341,4 @@ function stopBackgroundMusic() {
     sounds.background.currentTime = 0;
 }
 
-// =========================== 10. بدء تشغيل اللعبة =====================================
 loadGameData();
