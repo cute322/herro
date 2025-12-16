@@ -482,8 +482,8 @@ body {
 }
 #character-container {
     position: absolute;
-    top: 90px;  /* <-- تغيير: يضعها في الأعلى تحت شريط التقدم */
-    left: 10px;  /* <-- يضعها على حافة اليسار */
+    top: 90px;  
+    left: 10px;  
     z-index: 10;
 }
 #character-avatar {
@@ -497,4 +497,30 @@ body {
     flex-direction: column; 
     align-items: center; 
     padding-left: 175px;
+}
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+    font-size: 15px;
+    color: #444444;       
+    font-weight: 500;    
+}
+
+.copyright strong {
+    color: #000000;       
+    font-weight: 900;     
+}
+
+html[lang="ar"] .copyright {
+    font-weight: 700; 
+    color: #333333;   
+}
+
+html[lang="ar"] .copyright strong {
+    font-weight: 900; 
+}
+
+body {
+    flex-direction: column;
 }
