@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>أبطال السلامة المرورية</title>
-    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <link rel="icon" href="images/icons.png" type="image/png">
     <link rel="preload" href="style.css" as="style">
     <link rel="preload" href="game.js" as="script">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -96,6 +96,25 @@
     <div class="copyright">
     الإصدار 1.0 (03/08/2025) | إعداد: <strong>دليلة شريف سليمان</strong> &copy; 2025
 </div>
+   <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics.js";
+
+      const firebaseConfig = {
+        apiKey: "AIzaSyDp3h8Osu6iWByuOAvvA7jbPa2ZxJ_2S_w",
+        authDomain: "traffic-safety-heroes.firebaseapp.com",
+        projectId: "traffic-safety-heroes",
+        storageBucket: "traffic-safety-heroes.firebasestorage.app",
+        messagingSenderId: "177402835412",
+        appId: "1:177402835412:web:a3dc085fc25cf828f8a641",
+        measurementId: "G-ZT65CEWB4D"
+      };
+
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+
+      console.log("Firebase is running!"); 
+    </script>
     <script src="game.js" defer></script>
 </body>
 </html>
